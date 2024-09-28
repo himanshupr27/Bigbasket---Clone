@@ -1,0 +1,88 @@
+.productCard {
+  width: 17vmax;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: rgb(48, 48, 48);
+  margin: 0.5vmax;
+  transition: all 0.5s;
+  padding-bottom: 0.5vmax;
+  box-shadow: 0 0 5px rgba(15, 15, 15, 0.26);
+  padding: 0.7vmax;
+  border-radius: 8px;
+}
+.productCard > img {
+  width: 15.5vmax;
+  height: 13vmax;
+  border-radius: 8px;
+  border: 1px solid rgba(128, 128, 128, 0.484);
+}
+.productCard .div-rat {
+  margin: 0 0.5vmax;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.rating {
+  background-color: rgba(228, 241, 204, 1);
+  padding: 0 0.5vmax;
+  border-radius: 50px;
+  color: rgba(71, 111, 0, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rating p {
+  font-size: 0.85vmax;
+  font-weight: 600;
+  margin: 0 0.4vmax 0 0.1vmax;
+}
+.no-rating {
+  margin: 0 0 0 0.5vmax;
+  color: rgba(65, 65, 65, 0.692);
+  font-size: 0.8vmax;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.productCard .name {
+  font-family: "Roboto";
+  font-size: 1.2vmax;
+  margin:0 0.5vmax;
+  margin-bottom: 0;
+  height: 6vmax;
+}
+.productCard > span {
+  margin: 0.5vmax;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.productCard:hover{
+    color: black;
+}
+.catogary{
+    color: rgba(49, 49, 49, 0.642);
+    font-family: "Roboto";
+    font-size: 1vmax;
+    margin: 2vmax 0.5vmax;
+    margin-bottom: 0;
+}
+.size{
+    border: 1px solid rgba(128, 128, 128, 0.635);
+    padding: 0.4vmax 0.7vmax;
+    margin: 1vmax 0.5vmax;
+    font: 400 1vmax "Roboto";
+    border-radius: 4px;
+    color: rgba(49, 49, 49, 0.642) ;
+}
+.button{
+    display: flex;
+    margin-top: 6vmax;
+}
+.button .save{
+ background-color: rgba(250, 235, 215, 0);
+ border: 1px solid rgba(75, 75, 75, 0.322);
+ border-radius: 4px;
+ margin-right: 1vmax;
+}
+.button .add{
+    width: 100%;
+    padding: 0;
+}

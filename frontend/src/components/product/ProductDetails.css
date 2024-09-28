@@ -1,0 +1,211 @@
+.ProductDetails {
+    display: flex;
+    position: relative;
+    margin: 2vmax;
+    justify-content:center;
+    margin-bottom: 4vmax;
+  }
+  .CarouselImagediv {
+    width: 55%;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    margin: 0 1vmax 0 5vmax;
+  }
+  .all-Image {
+      position: relative;
+      height: 390px;
+      margin: 0.5vmax;
+      overflow-y:auto;
+  }
+  .all-Image::-webkit-scrollbar{
+      display: none;
+  }
+  .imagesall::-webkit-scrollbar{
+      display: none;
+  }
+  .imagesall{
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      height: 100%;
+      overflow-y: auto;
+  }
+  .all-Image img {
+    width: 6vmax;
+    height: 5vmax;
+    margin: 0.5vmax;
+    border-radius: 5px;
+  }
+  .pre-btn,.next-btn{
+      position: absolute;
+      width: 100%;
+      background-color: rgba(0, 128, 0, 0);
+      display: flex;
+      justify-content: center;
+      z-index: 1;
+  }
+  .pre-btn p,.next-btn p{
+      border-radius: 50%;
+      padding: 0 0.5vmax;
+      color: white;
+      border: 1px solid white;
+      background-color: rgb(0 0 0 / 57%);;
+  }
+  .pre-btn{
+      top: 0;
+  }
+  .next-btn{
+      bottom: -14px;
+  }
+  .smallImage{
+      border-radius: 5px;
+      padding: 0.5vmax;
+      border: 1px solid rgba(128, 128, 128, 0.493);
+  }
+  .detaislBlock {
+    width: 50%;
+    padding-right: 5vmax;
+  }
+  .detaislBlock > p:first-child{
+     color: grey;
+     text-decoration: underline;
+     margin-bottom: 0vmax;
+     font-size: medium;
+  }
+  .detailsBlock-1 h2{
+    font: 600 2vmax "Curisive";
+  }
+  .detailsBlock-3 h5{
+   margin-top: 1vmax;
+   margin-bottom: 0;
+  }
+  .detailsBlock-3 p{
+    color: grey;
+  }
+  .detailsBlock-3-1 ,  .detailsBlock-3-1-1{
+    display: flex;
+    align-self: center;
+  }
+
+  .detailsBlock-3-1-1 .qt-btn-m ,.qt-btn-a  {
+    width:30%;
+    font-size: 3vmax;
+    background-color: rgba(204, 0, 0, 1);
+    color: white;
+    border: none;
+    padding: 0;
+
+  }
+  .qt-btn-a{
+    border-radius:0 5px 5px 0;
+  }
+  .qt-btn-m{
+    border-radius: 5px 0  0 5px ;
+  }
+  .detailsBlock-3-1-1 input{
+    width: 25%;
+    border: 2px solid  rgba(204, 0, 0, 1);
+    color: rgba(204, 0, 0, 1);
+    text-align: center;
+    font-size: 2vmax;
+    padding: 0.2vmax;
+  }
+  .detailsBlock-3 .add-btn{
+   width:45%;
+   font-size: 1.3vmax;
+   background-color: rgba(204, 0, 0, 0.861);
+   color: white;
+   border: none;
+   border-radius: 5px;
+   padding: 1vmax;
+   margin: 1vmax;
+   margin-left: 0;
+ }
+ .detailsBlock-3 .save-btn{
+  width:45%;
+  font-size: 1.3vmax;
+  background-color: rgba(255, 255, 255, 0);
+  color: rgb(0, 0, 0);
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 1vmax;
+  margin: 1vmax;
+}
+.detailsBlock-3 .save-btn svg{
+  margin: 0;
+  padding: 0;
+  margin-right: 1vmax;
+}
+  .div-rat {
+    margin: 0 0.5vmax;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .rating {
+    background-color: rgba(228, 241, 204, 1);
+    padding: 0 0.5vmax;
+    border-radius: 50px;
+    color: rgba(71, 111, 0, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .rating p {
+    font-size: 1vmax;
+    font-weight: 600;
+    margin: 0 0.4vmax 0 0.1vmax;
+  }
+  .no-rating {
+    margin: 0 0 0 0.5vmax;
+    color: rgba(65, 65, 65, 0.692);
+    font-size: 0.8vmax;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .whybigbasket_border{
+    border: 1px dotted rgb(127, 127, 127);
+    background-color: rgba(255, 255, 255, 0);
+    margin: 2vmax 10vmax;
+  }
+  .whybigbasket{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .whybigbasket h5:first-child{
+    margin: 0 0 2vmax 0;
+    font-size: 1.3vmax;
+    font-weight: 700;
+  }
+  .basket-block{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .whybigbasket .block{
+    width: 18vmax;
+    margin: 0 1vmax;
+    padding: 1vmax;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(128 128 128 / 9%);;
+  }
+  .whybigbasket .block svg{
+    height: 3vmax;
+    width: 3vmax;
+  }
+  .whybigbasket .block h5{
+    font-size: 1.2vmax;
+  }
+  .whybigbasket .block p{
+    font-size: 1.1vmax;
+    color: grey;
+  }
+ 

@@ -1,0 +1,72 @@
+.reviews-div{
+    display: flex;
+    flex-direction: column;
+    margin: 1vmax 10vmax;
+  }
+  .noreview{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(128, 128, 128, 0.621);
+    border-radius: 5px;
+    padding: 4vmax 0vmax;
+    margin: 1vmax 0;
+  }
+  .noreview img{
+   margin-bottom: 2vmax;
+  }
+  .noreview p{
+    margin-bottom: 0 ;
+  }
+  .reviews{
+    display: flex;
+  }
+  .reviews .rating-cards{
+    width: 25%;
+    border: 1px solid rgba(128, 128, 128, 0.436);
+    border-radius: 5px;
+    margin: 0 2vmax 1vmax 0;
+    padding: 1vmax 2vmax;
+    display: flex;
+    flex-direction: column;
+    max-height: 22vmax;
+  }
+  .reviews .rating-cards span{
+    color: rgb(107, 167, 2);
+    display: flex;
+    align-items: baseline;
+  }
+  .reviews .rating-cards span svg{
+    margin-left: 0.3vmax;
+  }
+  .reviews .rating-cards p{
+    margin: 0 0 0.2vmax 0;
+  }
+  .reviews .rating-cards hr{
+    margin: 0.2vmax 0;
+  }
+  .reviews .reviews-cards{
+    width: 75%;
+    border: 1px solid rgba(128, 128, 128, 0.436);
+    border-radius: 5px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .reviews .reviews-cards h5{
+    margin: 0.5vmax;
+    padding: 0.5vmax;
+  }
+  .reviews .reviews-cards hr{
+    margin: 0.2vmax 0;
+  }
+  .reviews .reviews-cards .view_all_reviews{
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+  }
+  .reviews .reviews-cards .view_all_reviews h6{
+    margin-top: 1vmax;
+  }

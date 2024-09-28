@@ -1,0 +1,100 @@
+footer {
+  margin-top: 1vmax;
+  padding: 2vmax 4vmax;
+  background-color: rgb(32, 32, 32);
+  color: white;
+}
+
+.footer .level-1 {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.footer .level-1 ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.footer .level-1 li {
+  margin: 1vmax 0;
+  font-size: 1vmax;
+  color: white;
+}
+.footer .level-1 li:hover {
+  text-decoration: underline;
+}
+.footer .level-1 .row-3 .logo {
+  width: 12vmax;
+  margin: 1vmax;
+}
+.footer .level-1 .row-3 .apps img {
+  width: 10vmax;
+  margin: 1vmax;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+.social-icons svg{
+  margin: 1vmax;
+  width: 2vmax;
+  height: 2vmax;
+  transition:ease-out background-color 0.9s;
+}
+.social-icons svg:hover{
+    color: black;
+    padding: 0.1vmax;
+    border-radius: 5px;
+    background-color: white;
+    transform: scale(1.2);
+}
+.footer hr.dash{
+    border: 1px dashed white;
+    margin: 1vmax 7vmax;
+}
+.level-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.level-2 p{
+    font-size: 1vmax;
+    font-weight: 400;
+    color: rgb(199, 199, 199);
+    padding: 1vmax 9vmax;
+    text-align: center;
+}
+.level-2 p span{
+    margin: 0 1vmax;
+}
+.level-3 .pop-catg{
+    width: 100%;
+    margin: 0 4vmax;
+}
+.level-3 .pop-catg >div{
+    display: flex;
+    justify-content: space-between;
+
+}
+.level-3 .pop-catg ul{
+    margin: 0;
+    padding: 0;
+}
+.level-3 .pop-catg ul li{
+    list-style: none;
+    color: white;
+    padding: 0.5vmax 0;
+    font-size: 1vmax;
+}
+.level-3 .pop-catg ul li:hover {
+    text-decoration: underline;
+}
+.level-3{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 4vmax;
+}
+.last-line{
+    margin: 2vmax 0;
+    font-size: 1vmax;
+}

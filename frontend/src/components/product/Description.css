@@ -1,0 +1,45 @@
+.description {
+    display: flex;
+    flex-direction: column;
+    margin: 1vmax 10vmax;
+  }
+  
+  .description .des-details {
+    border: 1px solid #8080804f;
+    border-radius: 8px;
+    padding: 2vmax;
+    position: relative;
+  }
+  
+  .description-block .details {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    line-height: 1.5;
+    max-height: 3em;
+    transition: all 0.5s ease-in-out !important;
+  }
+  
+  .expanded {
+    max-height: none !important;
+    -webkit-line-clamp: unset !important;
+  }
+  
+  .description .des-details hr {
+    border: 0.5px solid grey;
+  }
+  
+  .details-block-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .details-block-heading button {
+    background-color: #80808000;
+    color: rgba(63, 63, 63, 0.658);
+    font-size: 3vmax;
+    font-weight: 600;
+  }
+  

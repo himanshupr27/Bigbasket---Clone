@@ -1,0 +1,62 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.welcome {
+  width: 100%;
+  margin:0 4vmax;
+  padding: 4vmax;
+}
+.welcome .carousel {
+  border-radius: 10px;
+  position: relative;
+  box-shadow:0 0 20px 0 #b3b3b3;
+}
+.welcome .carousel img {
+  width: 100%;
+  border-radius: 10px;
+}
+.indexing {
+  text-align: center;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(246, 246, 246);
+  z-index: 1;
+  position: absolute;
+  top: 27.35vmax;
+  left: 42vmax;
+  border-radius: 20px 20px 0 0;
+}
+.index-box {
+  padding: 0 1vmax;
+  border-radius: 5px 5px 0 0;
+  margin: 0.5vmax 0 0 0;
+  transition: border-bottom 0.3s;
+  width:9vmax;
+  border-bottom: 5px solid rgb(255, 255, 255);
+}
+.index-box.active {
+  border-bottom: 5px solid green;
+}
+.index-box h7{
+    font: 600 0.875rem "Roboto";
+}
+.index-box p{
+    font: 100 0.8vmax "Roboto";
+    margin-bottom: 0.2vmax;
+    color: gray;
+}
+.home-button{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+.home-button img{
+    width:11vmax;
+    height:3.5vmax ;
+    border-radius: 11px;
+}

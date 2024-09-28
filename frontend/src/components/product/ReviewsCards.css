@@ -1,0 +1,15 @@
+.reviewCard{
+    padding: 0.5vmax 1vmax;
+}
+.reviewCard .rating{
+justify-content: flex-start;
+width: 7%;
+}
+.reviewCard .reviewCardComment{
+    margin: 1vmax 0.4vmax;
+}
+.reviewCard .reviewrname{
+    font-size: 1vmax;
+    color: grey;
+    margin-bottom: 0.5vmax;
+}
