@@ -1,3 +1,4 @@
+<h1>Big - Basket Clone </h1>
 A full-stack clone of Big Basket, developed using ReactJS, Redux Toolkit, Node.js, Express.js, and MongoDB. This project aims to replicate core functionalities of the Big Basket platform, including product browsing, cart management, user authentication, and order processing.
 
 Features
