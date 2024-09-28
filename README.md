@@ -8,8 +8,6 @@ A full-stack clone of Big Basket, developed using **ReactJS**, **Redux Toolkit**
 - **Product Browsing**: Browse products across various categories.
 - **Search & Filter**: Users can search for products and filter by categories or prices.
 - **Shopping Cart**: Add products to the cart and manage items easily.
-- **Order Management**: Place and view orders.
-- **Admin Panel**: Manage product listings, categories, and user details (if applicable).
   
 ## Tech Stack
 
@@ -23,14 +21,16 @@ A full-stack clone of Big Basket, developed using **ReactJS**, **Redux Toolkit**
 - **Express.js**: Backend web framework for handling requests and API routes.
 - **MongoDB**: NoSQL database for storing user and product data.
 
-## Installation & Setup
-
 ### Prerequisites
 - **Node.js** and **npm** installed
 - **MongoDB** installed and running locally or using a cloud-based solution like MongoDB Atlas
 
-### Backend Setup
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/big-basket-clone.git
-   cd big-basket-clone/backend
+
+## Future Enhancements
+
+- Implement user reviews and ratings for products.
+- Adding Admin functionality to it.
+- Add payment gateway integration.
+- Enhance search functionality with fuzzy search and autocomplete.
+- Add product recommendations based on browsing history.
+
