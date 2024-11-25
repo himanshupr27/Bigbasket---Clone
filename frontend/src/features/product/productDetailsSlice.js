@@ -2,7 +2,7 @@ import {createSlice,createAsyncThunk} from "@reduxjs/toolkit";
 
 //Action
 export const fetchDetailProduct = createAsyncThunk("fetchDetailProduct",async(id)=>{
-    const response= await fetch(`https://bigbasket-clone.onrender.com/api/product/prod/${id}`);
+    const response= await fetch(`http://localhost:4000/api/product/prod/${id}`);
     return response.json();
 })
 
